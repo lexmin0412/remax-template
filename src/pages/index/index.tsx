@@ -1,8 +1,16 @@
 import * as React from 'react';
-import { View, Text, Image } from 'remax/one';
-import styles from './index.css';
+import { View, Button, Text, Image } from 'remax/one';
+import { navigateTo } from 'remax/wechat'
+import styles from './index.less';
 
 export default () => {
+
+	const handleJump = () => {
+		navigateTo({
+			url: '/pages/about/index'
+		})
+	}
+
   return (
     <View className={styles.app}>
       <View className={styles.header}>
@@ -13,8 +21,9 @@ export default () => {
         />
         <View className={styles.text}>
           编辑 <Text className={styles.path}>src/pages/index/index.js</Text>{' '}
-          开始
+          开始111热更新
         </View>
+				<Button onTap={handleJump}>跳转</Button>
       </View>
     </View>
   );
