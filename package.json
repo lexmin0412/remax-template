@@ -2,7 +2,7 @@
   "name": "remax-template",
   "private": true,
   "version": "1.0.0",
-  "description": "开箱即用的Remax模版项目",
+  "description": "开箱即用的 Remax 多端模版项目",
   "main": "index.js",
   "keywords": [
     "remax",
