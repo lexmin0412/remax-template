@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { View, Button, Text, Image } from 'remax/one';
-import { navigateTo } from 'remax/wechat'
+import { View, Button, Text, Image, navigateTo } from 'remax/one';
 import styles from './index.less';
 
 export default () => {
