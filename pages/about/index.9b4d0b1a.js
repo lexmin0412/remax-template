@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{144:function(n,t,e){n.exports={about:"about___3Q6sT"}},147:function(n,t,e){"use strict";e.r(t);var a=e(0),o=e(55),u=e(144),s=e.n(u);t.default=function(){return a.createElement(o.View,{className:s.a.about},"关于")}}}]);
