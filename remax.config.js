@@ -13,4 +13,7 @@ module.exports = {
       },
     }),
   ],
+	configWebpack({ config, webpack, addCSSRule }) {
+		config.output.publicPath('/remax-template')
+  },
 };
